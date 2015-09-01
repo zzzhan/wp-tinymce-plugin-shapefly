@@ -31,6 +31,6 @@
     "package.json"
   ],
   "dependencies": {
-    "tinymce-plugin-shapefly": "https://github.com/zzzhan/tinymce-plugin-shapefly.git",
+    "tinymce-plugin-shapefly": "https://github.com/zzzhan/tinymce-plugin-shapefly.git"
   }
 }

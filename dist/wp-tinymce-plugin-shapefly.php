@@ -28,7 +28,7 @@ function shapefly_buttons() {
   }
 }
 function shapefly_add_buttons( $plugin_array ) {
-    $plugin_array['shapefly'] = plugins_url('/wp-tinymce-plugin-shapefly.js',__FILE__);
+    $plugin_array['shapefly'] = plugins_url('/jquery-shapefly-client.js',__FILE__);
     return $plugin_array;
 }
 function shapefly_register_buttons( $buttons ) {
