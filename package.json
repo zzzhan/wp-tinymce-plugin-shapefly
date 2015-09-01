@@ -1,0 +1,18 @@
+{
+  "name": "wp-tinymce-plugin-shapefly",
+  "file": "wp-tinymce-plugin-shapefly",
+  "version": "0.1.0",
+  "description": "Wordpress plugin for inserting ready-make shapes online, such as rectangles and circles, arrows,, lines, flowchart symbols, and callouts.",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^0.8.0",
+    "matchdep": "^0.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zzzhan/wp-tinymce-plugin-shapefly.git"
+  },
+  "dependencies": {}
+}

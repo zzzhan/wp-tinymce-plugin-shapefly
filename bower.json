@@ -1,0 +1,36 @@
+{
+  "name": "wp-tinymce-plugin-shapefly",
+  "version": "0.1.0",
+  "authors": [
+    "zzzhan <chunzhan.he@gmail.com>"
+  ],
+  "description": "Wordpress plugin for inserting read-make shapes online, such as rectangles and circles, arrows,, lines, flowchart symbols, and callouts.",
+  "main": [
+    "dist/wp-tinymce-plugin-shapefly.php"
+  ],
+  "keywords": [
+    "flowchart",
+    "diagram",
+    "shapes",
+    "rectangles",
+    "circles",
+    "arrows",
+    "lines",
+    "callouts"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/zzzhan/wp-tinymce-plugin-shapefly",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "index.html",
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "tinymce-plugin-shapefly": "https://github.com/zzzhan/tinymce-plugin-shapefly.git",
+  }
+}
