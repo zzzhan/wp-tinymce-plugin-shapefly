@@ -2,7 +2,7 @@
 /** 
  * Plugin Name: Shapefly 
  * Plugin URI: http://github.com/zzzhan/wp-tinymce-plugin-shapefly
- * Description: Inserting ready-make shapes on the web straight-through, such as rectangles and circles, arrows,, lines, flowchart symbols, and callouts.
+ * Description: Inserting ready-make shapes with a click of button on TinyMCE, the visual editor in WordPress.It will connect to the shapefly.com service, which enables you to draw any shapes or diagram, such as rectangles and circles, arrows, lines, flowchart symbols, and callouts.
  * Version: 0.1.0 
  * Author: zzzhan 
  * Author URI: http://github.com/zzzhan/
