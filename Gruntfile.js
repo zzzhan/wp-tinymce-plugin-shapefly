@@ -8,21 +8,24 @@ module.exports = function (grunt) {
       },
       build:{
         src: [
-          'bower_components/jquery-shapefly-client/dist/jquery-shapefly-client.min.js',
+          'bower_components/shapefly-plugin/dist/shapefly-plugin.min.js',
           'bower_components/tinymce-plugin-shapefly/dist/tinymce-plugin-shapefly.min.js'
         ],
-        dest: 'dist/jquery-shapefly-client.js'
+        dest: 'dist/wp-tinymce-plugin-shapefly.min.js'
       }
     },
 	clean:['dist'],
     copy: {
       build: {
 	    files: [{
-			expand: true,
-			cwd: 'src',
-			src: '**/*.php',
-			dest:'dist/'
-		  }, {'dist/shapefly.html':'bower_components/jquery-shapefly-client/dist/shapefly.min.html'}]
+		  expand: true,
+		  cwd: 'src',
+		  src: '**/*.php',
+		  dest:'dist/'
+		}, {
+		  'dist/shapefly-plugin.html':'bower_components/shapefly-plugin/dist/shapefly-plugin.min.html',
+		  'dist/tinymce-plugin-shapefly.min.css':'bower_components/tinymce-plugin-shapefly/dist/tinymce-plugin-shapefly.min.css'
+		}]
 	  }
 	}
   });

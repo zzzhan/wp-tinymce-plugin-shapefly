@@ -26,6 +26,7 @@
     "bower_components",
     "test",
     "tests",
+	"src",
     "index.html",
     "Gruntfile.js",
     "package.json"

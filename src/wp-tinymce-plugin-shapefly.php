@@ -28,21 +28,21 @@ function shapefly_buttons() {
   }
 }
 function shapefly_add_buttons( $plugin_array ) {
-    $plugin_array['shapefly'] = plugins_url('/wp-tinymce-plugin-shapefly.js',__FILE__);
+    $plugin_array['shapefly'] = plugins_url('/wp-tinymce-plugin-shapefly.min.js',__FILE__);
     return $plugin_array;
 }
 function shapefly_register_buttons( $buttons ) {
     array_push( $buttons, 'shapefly');
     return $buttons;
 }
-function myterminal_css() {
+function shapefly_css() {
     //wp_enqueue_style('myterminal', plugins_url('myplugin.css', __FILE__));
 }
-function myterminal_css_admin() {
+function shapefly_css_admin() {
     //wp_enqueue_style('myterminal', plugins_url('icon.css', __FILE__));
-    //wp_enqueue_style('myterminal', plugins_url('editor.css', __FILE__));
+    wp_enqueue_style('shapefly', plugins_url('/tinymce-plugin-shapefly.min.css', __FILE__));
 }
 
 //add_action('wp_enqueue_scripts', 'myterminal_css');
-//add_action('admin_enqueue_scripts', 'myterminal_css_admin');
+add_action('admin_enqueue_scripts', 'shapefly_css_admin');
 ?>
